@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: Copyright 2021 LG Electronics Inc
+# SPDX-FileCopyrightText: Copyright 2021 LG Electronics Inc 2
 # SPDX-License-Identifier: AGPL-3.0-only
 
 name: Merged to develop branch
@@ -11,6 +11,7 @@ on:
 
 jobs:
   deploy:
+    environment: DEV_REMOTE 
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
