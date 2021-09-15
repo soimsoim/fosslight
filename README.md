@@ -15,7 +15,7 @@ SPDX-License-Identifier: AGPL-3.0-only
 FOSSLight is an integrated system that can efficiently process the open source compliance process.
 
 ---
-## Features
+## Features 2
 - **Compliance Workflow**
   - It can process the open source compliance workflow.
 - **Compliance Hub**
